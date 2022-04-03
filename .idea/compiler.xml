@@ -2,9 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for lessons-ui-autotests-feb" enabled="true">
+        <sourceOutputDir name="${project.basedir}/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="${project.basedir}/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lessons-ui-autotests-feb" />
       </profile>
