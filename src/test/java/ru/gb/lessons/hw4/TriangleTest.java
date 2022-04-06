@@ -1,4 +1,4 @@
-package ru.gb.lessons;
+package ru.gb.lessons.hw4;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -6,7 +6,6 @@ import org.junit.jupiter.params.provider.*;
 import ru.gb.lessons.hw4.Colour;
 import ru.gb.lessons.hw4.Triangle;
 
-import java.sql.SQLOutput;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
